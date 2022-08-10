@@ -1,12 +1,13 @@
-import ExpenseDisplay from "./ExpenseDisplay";
+import ExpenseDisplay from "./Components/ExpenseDisplay";
+import NewExpense from "./Components/NewExpense/NewExpense";
+
 
 function App() {
 
 
   return (
     <div className="expenses">
-      <h2>Let's get started!</h2>
-      <p>This is also Visible!</p>
+      <NewExpense/>
       <ExpenseDisplay></ExpenseDisplay>
 
     </div>
